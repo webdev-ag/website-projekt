@@ -1,0 +1,53 @@
+html, body {
+    background-color: var(--c-dar);
+    font-family: var(--font-body);
+    font-size: var(--font-size-lg);
+    background-color: var(--c-dark);
+}
+
+a, a:hover, a:visited, a:active, a:link {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+    color: var(--c-teal);
+}
+
+.logo {
+    height: 140px;
+}
+
+.page-title {
+    font-size: var(--font-size-xl);
+    font-family: var(--font-header);
+}
+
+.main-header, .main-content, .main-footer {
+    width: 95%;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-content,
+.main-footer,
+.main-navigation {
+    padding: var(--size-xl);
+}
+
+.main-header, .main-footer {
+    color: var(--c-light);
+    outline: 1px ridge var(--c-light);
+}
+
+.main-navigation {
+    background-color: var(--c-dark);
+    color: var(--c-light);
+    max-width: fit-content;
+}
+
+.main-content {
+    background-color: rgb(240 240 240 / 0.9);
+}
