@@ -11,6 +11,8 @@ are the first ones to be created.
 we create them by **copying** the `_template.html` file e.g. to
 `about_us.html`.
 
+![sitemap as image](./sitemap.png)
+
 ```plantuml
 @startwbs
 
