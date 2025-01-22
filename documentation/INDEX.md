@@ -35,8 +35,15 @@ title sitemap
 @endwbs
 ```
 
-# design
+## design
 
 the design should be part of the `_template.html`.
 
 so there should be a `header`, a `footer` and a `main`. the main navigation should be in a `nav` tag.
+
+## the different pages
+
+- [the "legals" page](./legal/INDEX.md)
+- [the "about us" page](./about_us/INDEX.md)
+- [the "HTML" page](./html-course/INDEX.md)
+- [the "CSS" page](./css-course/INDEX.md)
