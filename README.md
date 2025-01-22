@@ -8,3 +8,5 @@ main focus of this site will be:
 - HTML Lessons
 - CSS Lessons
 - in preparation: Javascript Lessons
+
+see also [the documentation](./documentation/INDEX.md)
