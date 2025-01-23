@@ -11,5 +11,5 @@ filename: `html/index.html`
 > understand HTML and create pages with
 >
 > We would recommend to start with the HTML part, then move to CSS `here we should link to the CSS page`
-> We will ad a Javascript part later
+> We will add a Javascript part later
 
