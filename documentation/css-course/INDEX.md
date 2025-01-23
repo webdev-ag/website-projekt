@@ -4,8 +4,8 @@ filename: `css/index.html`
 
 ## content
 
-> **CSS Course** `as headline <h1>`
-> **CSS Intro** `as a headline <h2>`
+> **CSS Course** `as headline <h2>`
+> **CSS Intro** `as a headline <h3>`
 > `this should be a <p>` we will provide an intro and later a deep dive into the **basics of CSS**.
 > we will start very slow, but our goal is to provide all the info to
 > understand CSS and how to bring color and fun to a html page (a web page)

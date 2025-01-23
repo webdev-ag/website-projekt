@@ -4,6 +4,7 @@ filename: `legal.html`
 
 ## content
 
+> **Legal Stuff** `as headline <h2>`
 > this is a webpage to help others learning the basics of
 > web development. every information we provide should be
 > used with caution and we will not be liable in any way or kind
@@ -23,3 +24,10 @@ also we should add
 >
 > see the full license here: https://www.gnu.org/licenses/fdl-1.3.html.en
 
+> **Imprint** `as h2`
+>
+> for any issues with the content of this website
+> please contact the web development AG of the Schillerschule Offenbach
+> the person responsible is
+> Dominik Schopper
+> Email: webdevag@taka-tuka.net
