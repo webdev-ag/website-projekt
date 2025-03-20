@@ -11,8 +11,8 @@ a, a:hover, a:visited, a:active, a:link {
 }
 
 a:hover {
-    font-weight: bold;
-    /*color: var(--c-teal);*/
+    /*font-weight: bold;
+    color: var(--c-teal);*/
 }
 
 .logo {

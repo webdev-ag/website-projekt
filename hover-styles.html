@@ -17,6 +17,10 @@
             gap: 16px;
             flex-wrap: wrap;
         }
+        .row.skewed {
+            gap: 5rem;
+            margin: 3rem 0;
+        }
         .call2action {
             width: 300px;
             border: 3px solid var(--c-blue);
@@ -69,13 +73,30 @@
         }
         .f-link-fancy:hover {
             scale: 1.2;
-            box-shadow: 10px 10px 5px var(--c-dark-50);
+            /*box-shadow: 10px 10px 5px var(--c-dark-50);*/
         }
-        .f-link-fancy:active {
+        /*.f-link-fancy:active {
             scale: 1;
             box-shadow: none;
             color: var(--c-green);
             border-color: var(--c-green);
+        }*/
+    </style>
+    <style>
+        .tilt-left-10 {
+            transform: rotate(10deg);
+            transition: transform 250ms ease-in-out;
+        }
+        .tilt-left-10:hover {
+            transform: rotate(0);
+        }
+
+        .tilt-right-17 {
+            transform: rotate(-17deg);
+            transition: transform 250ms ease-in-out;
+        }
+        .tilt-right-17:hover {
+            transform: rotate(0);
         }
     </style>
 </head>
@@ -118,11 +139,11 @@
                     </div>
                 </div>
 
-                <div class="call2action">
+                <div class="call2action skewed">
                     <h3>Noch einmal call 2 action!</h3>
 
                     <div>
-                        <img src="./images/girl_study_4.3.png" alt="girl studying web development together" />
+                        <img src="./images/group_study_4.3.png" alt="girl studying web development together" />
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -149,6 +170,41 @@
 
                     <div class="call2action__footer">
                         <a class="f-link-fancy" id="here" href="#here">Erfahren Sie mehr</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row skewed">
+                <div class="call2action tilt-left-10">
+                    <h3>Noch einmal call 2 action!</h3>
+
+                    <div>
+                        <img src="./images/girl_study_4.3.png" alt="girl studying web development together" />
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Quas, minima.
+                        </p>
+                    </div>
+
+                    <div class="call2action__footer">
+                        <a class="f-link-fancy" id="here2" href="#here2">Erfahren Sie mehr</a>
+                    </div>
+                </div>
+
+                <div class="call2action tilt-right-17">
+                    <h3>Noch einmal call 2 action!</h3>
+
+                    <div>
+                        <img src="./images/group_study_4.3.png" alt="girl studying web development together" />
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Quas, minima.
+                        </p>
+                    </div>
+
+                    <div class="call2action__footer">
+                        <a class="f-link-fancy" id="here3" href="#here3">Erfahren Sie mehr</a>
                     </div>
                 </div>
             </div>
