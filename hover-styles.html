@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test / Example</title>
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/fonts.css" />
+    <link rel="stylesheet" href="./styles/base.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/components.css" />
+
+    <style>
+        .row {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+        .call2action {
+            width: 300px;
+            border: 3px solid var(--c-blue);
+            border-radius: 16px;
+        }
+        .call2action__footer {
+            text-align: center;
+            margin: 8px 0;
+        }
+    </style>
+    <style>
+        /* beispiel 1 */
+        .f-link-color {
+            display: inline-block;
+            margin: 4px;
+            padding: 8px 16px;
+            background-color: orangered;
+            color: green;
+        }
+        .f-link-color:hover {
+            color: orangered;
+            background-color: green;
+        }
+    </style>
+    <style>
+        /* beispiel 2 */
+        .f-link-size {
+            display: inline-block;
+            margin: 4px;
+            padding: 8px 16px;
+            background-color: var(--c-dark);
+            color: var(--c-light);
+        }
+        .f-link-size:hover {
+            font-size: 18px;
+            padding: 16px 18px;
+        }
+    </style>
+    <style>
+        /* beispiel 3 */
+        .f-link-fancy {
+            display: inline-block;
+            margin: 4px;
+            padding: 8px 16px;
+            background-color: var(--c-dark);
+            color: var(--c-light);
+            border: 3px solid var(--c-red);
+            border-radius: 8px;
+            /*transition: scale ease-in-out 150ms;*/
+        }
+        .f-link-fancy:hover {
+            scale: 1.2;
+            box-shadow: 10px 10px 5px var(--c-dark-50);
+        }
+        .f-link-fancy:active {
+            scale: 1;
+            box-shadow: none;
+            color: var(--c-green);
+            border-color: var(--c-green);
+        }
+    </style>
+</head>
+
+<body>
+    <header class="main-header :: ag flex gap-xl align-center">
+        <img class="logo" src="./images/webdevsquad_logo.webp" alt="webdev squad logo" />
+        <h1 class="page-title">Web Dev Squad Schillerschule</h1>
+    </header>
+
+
+    <main class="main-content :: ag flex gap-xl ">
+        <aside class="main-navigation">
+            <nav>
+                <ul>
+                    <li><a href="#" class="link">Start</a></li>
+                    <li><a href="#" class="link">HTML</a></li>
+                    <li><a href="#" class="link">CSS</a></li>
+                    <li><a href="#" class="link">Wer wir sind</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <article class="content">
+
+            <div class="row">
+                <div class="call2action">
+                    <h3>Eine Call 2 Action Card</h3>
+
+                    <div>
+                        <img src="./images/group_study_4.3.png" alt="group of kids studying web development together" />
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Quas, minima.
+                        </p>
+                    </div>
+
+                    <div class="call2action__footer">
+                        <a class="f-link-color" href="#">Erfahren Sie mehr</a>
+                    </div>
+                </div>
+
+                <div class="call2action">
+                    <h3>Noch einmal call 2 action!</h3>
+
+                    <div>
+                        <img src="./images/girl_study_4.3.png" alt="girl studying web development together" />
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Quas, minima.
+                        </p>
+                    </div>
+
+                    <div class="call2action__footer">
+                        <a class="f-link-size" href="#">Erfahren Sie mehr</a>
+                    </div>
+                </div>
+
+                <div class="call2action">
+                    <h3>Noch einmal call 2 action!</h3>
+
+                    <div>
+                        <img src="./images/girl_study_4.3.png" alt="girl studying web development together" />
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Quas, minima.
+                        </p>
+                    </div>
+
+                    <div class="call2action__footer">
+                        <a class="f-link-fancy" id="here" href="#here">Erfahren Sie mehr</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <footer class="main-footer">
+        footer
+    </footer>
+
+</body>
+
+</html>

@@ -7,10 +7,39 @@
     --c-orange: rgb(255 111 97);
     --c-teal: rgb(23 190 187);
     --c-blue: rgb(74 144 226);
+
     --c-dark: rgb(26 26 46);
     --c-light: rgb(246 246 255);
+
     --c-text: var(--c-light);
     --c-bg: var(--c-dark);
+
+    /* .25 transparent */
+    --c-red-25: rgb(234 84 85 / .25);
+    --c-green-25: rgb(40 199 111 / .25);
+    --c-orange-25: rgb(255 111 97 / .25);
+    --c-teal-25: rgb(23 190 187 / .25);
+    --c-blue-25: rgb(74 144 226 / .25);
+    --c-dark-25: rgb(26 26 46 / .25);
+    --c-light-25: rgb(246 246 255 / .25);
+
+    /* half transparent */
+    --c-red-50: rgb(234 84 85 / .5);
+    --c-green-50: rgb(40 199 111 / .5);
+    --c-orange-50: rgb(255 111 97 / .5);
+    --c-teal-50: rgb(23 190 187 / .5);
+    --c-blue-50: rgb(74 144 226 / .5);
+    --c-dark-50: rgb(26 26 46 / .5);
+    --c-light-50: rgb(246 246 255 / .5);
+
+    /* .75 transparent */
+    --c-red-75: rgb(234 84 85 / .75);
+    --c-green-75: rgb(40 199 111 / .75);
+    --c-orange-75: rgb(255 111 97 / .75);
+    --c-teal-75: rgb(23 190 187 / .75);
+    --c-blue-75: rgb(74 144 226 / .75);
+    --c-dark-75: rgb(26 26 46 / .75);
+    --c-light-75: rgb(246 246 255 / .75);
 
     /* sizes */
     --size-sm: 4px;

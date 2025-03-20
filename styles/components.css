@@ -1,0 +1,73 @@
+.card {
+    --radius: 1rem;
+    width: 300px;
+    border: 3px solid var(--c-green);
+    border-radius: var(--radius);
+}
+
+.card .card_section {
+    padding: var(--size-lg) var(--size-xl);
+    border-radius: var(--radius);
+}
+
+.card .card_header {
+    width: 100%;
+    height: 120px;
+    background-color: var(--c-light);
+    background-image: url(../images/boy_study_4.3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:  center;
+    position: relative;
+}
+
+.card_header.girl {
+        background-image: url(../images/girl_study_4.3.png);
+}
+
+.card_header.boy {
+    background-image: url(../images/boy_study_4.3.png);
+}
+
+.card_header.group {
+    background-image: url(../images/group_study_4.3.png);
+}
+
+.card .card_title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: var(--c-green);
+    background-color: var(--c-dark-75);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.card .card_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    background-color: var(--c-dark-75);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.card_footer .card_button {
+    color: var(--c-green);
+    text-decoration: none;
+    font-weight: bold;
+    background-color: var(--c-light);
+    padding: var(--size-lg) var(--size-xl);
+    border-radius: var(--radius);
+}
+
+.card_row {
+    display: flex;
+    justify-content: space-evenly;
+    gap: var(--size-xl);
+    flex-wrap: wrap;
+}
